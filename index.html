@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Full-stack web developer based out of Seattle."
+    />
+    <title>James Fisher - Web Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:ital,wght@0,300;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="queries.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Bio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Meet <strong>James Fisher</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">web developer</p>
+      <img src="media/James.jpg" alt="James Fisher" class="intro__img" />
+    </section>
+
+    <!-- Skills section -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Skills</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Languages</h3>
+          <div class="skills-list">
+            <div class="skill-icon"><i class="fab fa-html5"></i>HTML 5</div>
+            <div class="skill-icon"><i class="fab fa-css3-alt"></i>CSS 3</div>
+            <div class="skill-icon"><i class="fab fa-js"></i>JavaScript</div>
+            <div class="skill-icon"><i class="fab fa-php"></i>PHP (learning)</div>
+            <div class="skill-icon"><i class="fas fa-database"></i>MySql</div>
+            <div class="skill-icon"><i class="fas fa-database"></i>MongoDB</div>
+          </div>
+        </div>
+
+        <div class="service">
+          <h3>Libraries/Frameworks</h3>
+          <div class="skills-list">
+            <div class="skill-icon"><i class="fab fa-react"></i>React.js</div>
+            <div class="skill-icon"><i class="fab fa-bootstrap"></i>Bootstrap</div>
+            <div class="skill-icon"><i class="fas fa-search"></i>jQuery</div>
+            <div class="skill-icon"><i class="fas fa-network-wired"></i>Express.js</div>
+            <div class="skill-icon"><i class="fas fa-route"></i>Sequelize.js</div>
+            <div class="skill-icon"><i class="fas fa-route"></i>Mongoose.js</div>
+          </div>
+        </div>
+
+        <div class="service">
+          <h3>Platforms</h3>
+          <div class="skills-list">
+    
+            <div class="skill-icon"><i class="fab fa-wordpress-simple"></i>WordPress</div>
+            <div class="skill-icon"><i class="fas fa-cloud"></i></i>Heroku</div>
+            <div class="skill-icon"><i class="fab fa-github"></i>GitHub</div>
+            <div class="skill-icon"><i class="fab fa-gitlab"></i></i>GitLab</div>
+            <div class="skill-icon"><i class="fab fa-node-js"></i>Node-js</div>
+            
+          </div>
+        </div>
+
+        <div class="service">
+          <h3>Methods/Technologies</h3>
+          <div class="skills-list">
+            
+            <div class="skill-icon">
+              <i class="fas fa-laptop-code"></i>Functional-Programming (FP)
+            </div>
+            <div class="skill-icon">
+              <i class="fas fa-laptop-code"></i>Object-Oriented-Programming
+              (OOP)
+            </div>
+            <div class="skill-icon">
+              <i class="fas fa-code-branch"></i>Application Programming
+              Interfaces (API)
+            </div>
+            <div class="skill-icon">
+              <i class="fas fa-terminal"></i>Command Line Interfaces (CLI)
+            </div>
+            <div class="skill-icon"><i class="fab fa-git-alt"></i>Git</div>
+            <div class="skill-icon"><i class="fas fa-code"></i>Visual Studio Code</div>
+          </div>
+        </div>
+      </div>
+      <a href="#work" class="btn work-btn"> See Examples of James' Work</a>
+    </section>
+
+    <!-- About Me section-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Bio</h2>
+      <p class="section__subtitle section__subtitle--about">
+        full-stack developer based out of Houston
+      </p>
+
+      <div class="about-me__body">
+        <p class="about-me__body--paragraph">
+          A creative and business-savvy web-developer with a passion for
+          building clean, stream-lined, responsive websites and apps. With a
+          technical background in the event industry, including more than 10
+          years as a project-manager, James has an abundance of experience
+          working with a diverse base of corporate, nonprofit and government
+          entities. After a fulfilling career in Event Technology, James decided
+          to change course and persue a lifelong dream of learning Web
+          Development where he could be creative and build things that last.
+        </p>
+
+        <img
+          src="media/UW fullstack cert.JPG"
+          alt="full-stack certificate"
+          class="about-me__img certificate--img"
+        />
+        <p class="about-me__body--paragraph">
+          In 2020, he received a Certificate in Full-Stack Web Development from
+          the University of Washington and he continues to develop his coding
+          skills daily. His current project has him working as an intern Database
+          Engineer on a MERN-stack app for Veterans and current Military
+          Personnel.
+        </p>
+        <p class="about-me__body--paragraph">
+          James is very excited about the opportunities that await him as a Web Developer.  He is looking for a position where he will be able to build amazing things and work with great people!
+        </p>
+        <a href="#contact" class="btn work-btn">Contact James</a>
+      </div>
+
+      <img
+        src="media/james-fisher-camera.jpg"
+        alt="James with his camera"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Portfolio</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of James' varied range of work
+      </p>
+      <p class="section__subtitle section__subtitle_subtext--work">
+        (Click an image to see more information about a project)
+      </p>
+      <div class="portfolio">
+        <!-- meeting your AV needs -->
+
+        <a href="pages/meetingneeds.html" class="portfolio__item">
+          <img
+            src="media/meetingneeds-animated.gif"
+            alt="Meeting your needs"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- google books -->
+
+        <a href="pages/google-books.html" class="portfolio__item">
+          <img
+            src="media/my-books-list1.png"
+            alt="googlebooks-search"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- burger tracker! -->
+
+        <a href="pages/burger-tracker.html" class="portfolio__item">
+          <img
+            src="media/burger-tracker.png"
+            alt="burger-tracker"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- express note taker -->
+
+        <a href="pages/express-note-taker.html" class="portfolio__item">
+          <img
+            src="media/note-taker-3.png"
+            alt="Express Note Taker"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- lawn and yard services -->
+        <a href="pages/lawn-and-yard-services.html" class="portfolio__item">
+          <img
+            src="media/yard-service-1.png"
+            alt="lawn-and-yard-service"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- covidosity -->
+
+        <a href="pages/covidosity.html" class="portfolio__item">
+          <img
+            src="media/Covidosity.png"
+            alt="Covidosity"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- team-profile-generator -->
+
+        <a href="pages/team-profile-generator.html" class="portfolio__item">
+          <img
+            src="media/team-profile-generator-2.png"
+            alt="team-profile-generator"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- employee directory -->
+
+        <a href="pages/employee-directory.html" class="portfolio__item">
+          <img
+            src="media/employee-directory.png"
+            alt="employee-directory"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- code quiz -->
+        <a href="pages/code-quiz.html" class="portfolio__item">
+          <img
+            src="media/code-quiz-1.png"
+            alt="budget-tracker"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- readme generator -->
+        <a href="pages/readme-generator.html" class="portfolio__item">
+          <img
+            src="media/readme-generator-1.png"
+            alt="readme-generator"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- weather dashboard -->
+        <a href="pages/weather-dashboard.html" class="portfolio__item">
+          <img
+            src="media/Weather-Dashboard.png"
+            alt="weather-dashboard"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- workday scheduler -->
+        <a href="pages/workday-scheduler.html" class="portfolio__item">
+          <img
+            src="media/workday-scheduler.png"
+            alt="workday-scheduler"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- password generator -->
+        <a href="pages/password-gen.html" class="portfolio__item">
+          <img
+            src="media/password-generator.png"
+            alt="password-generator"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Wine Key -->
+        <a href="pages/wine-key.html" class="portfolio__item">
+          <img
+            src="media/Wine-Key-animation.gif"
+            alt="wine-key"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Shanghaied in Portland -->
+        <a href="pages/shanghaied-in-portland.html" class="portfolio__item">
+          <img
+            src="media/shanghaied-in-portland-1.png"
+            alt="shanghaied-in-portland"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <a href="mailto:james@james-fisher-web-developer.com" class="footer__link"
+        >james@james-fisher-web-developer.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/jameslincolnfisher/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/Jaymz396"
+            target="_blank"
+          >
+            <i class="fab fa-twitter-square"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/jfisher396"
+            target="_blank"
+          >
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+      </ul>
+      <p>Copyright &copy;2021 James Fisher</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
