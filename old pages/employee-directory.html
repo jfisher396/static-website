@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Fisher - Wine Key</title>
+    <title>James Fisher - Employee Directory</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,7 +18,7 @@
     />
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../queries.css" />
-   
+    
   </head>
 
   <body>
@@ -29,19 +29,19 @@
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
-  <nav class="nav">
+    <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
             <a href="../index.html" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="../index.html#skills" class="nav__link">Skills</a>
+            <a href="../index.html#services" class="nav__link">Skills</a>
           </li>
           <li class="nav__item">
-            <a href="../index.html#bio" class="nav__link">Bio</a>
+            <a href="../index.html#about" class="nav__link">Bio</a>
           </li>
           <li class="nav__item">
-            <a href="../index.html#portfolio" class="nav__link">Portfolio</a>
+            <a href="../index.html#work" class="nav__link">Portfolio</a>
           </li>
           <li class="nav__item">
             <a href="../index.html#contact" class="nav__link">Contact</a>
@@ -52,10 +52,11 @@
 
     <section class="portfolio-section-intro">
       <h1 class="section__title portfolio-intro">
-        <strong>Wine Key</strong>
+        Employee <strong>Directory</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro portfolio-subtitle">
-        an interactive wine inventory tool for a small restaurant chain
+        an app that can be used to view current employees and their contact
+        information
       </p>
       <!-- <img
         src="media/Covidosity.png"
@@ -68,24 +69,24 @@
     <section class="portfolio-section-main">
       <div class="portfolio-item-individual">
         <p>
-          Need to know which of your restaurants has the bottle of wine you are
-          looking for? Wine Key has the answer...
+          Need a way to keep track of your employees and quickly search their
+          contact info? That's what the Employee Directory is for.
         </p>
         <img
           class="portfolio-item-individual-image-main"
-          src="../media/Wine-Key-animation.gif"
+          src="../media/employee-directory.png"
           alt="meeting your AV needs screenshot"
         />
 
         <div class="portfolio-item-buttons">
           <a
-            href="https://fv-winekey.herokuapp.com/auth/login"
+            href="https://polar-harbor-03343.herokuapp.com/"
             class="btn site-button"
             target="_blank"
             >View Site</a
           >
           <a
-            href="https://github.com/arielbs1991/Wine-Key"
+            href="https://github.com/jfisher396/employee-directory"
             class="btn repo-button"
             target="_blank"
             >View Repo</a
@@ -93,15 +94,12 @@
         </div>
 
         <p>
-          Wine Key is an interactive wine inventory tool for a small restaurant
-          chain. Easily add, modify or delete items in a location's wine
-          inventory, as well as search for bottles that may exist elsewhere
-          within the company. This was a coding-bootcamp group project and my contributions included CSS styling and animation.
+          A directory that can be used to view current employees and their
+          contact information. Employees can be searched by first or last name
+          and sorted by last name as well. A bootcamp assignment, built using React, Bootstrap and the
+          randomuser.me API.
         </p>
-        <p>
-          To login to page, simply enter a fake name and email address to "sign
-          up".
-        </p>
+
         <!-- <img
           class="portfolio-item-individual-image-2"
           src="media\meetingneeds animated.gif"

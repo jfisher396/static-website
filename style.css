@@ -55,8 +55,7 @@ strong {
 }
 
 :focus {
-  outline: 3px solid var(--clr-accent);
-  outline-offset: 3px;
+  outline: none;
 }
 
 .btn {
@@ -497,4 +496,59 @@ header {
 
 .site-button {
   margin: 0 20px 0 0;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: silver;
+  color: black;
+}
+
+.email {
+  background: #8c7ae6;
+  color: white;
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -ms-border-radius: 0 5px 0 0;
+  -o-border-radius: 0 5px 0 0;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.github {
+  background: #44bd32;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 0 0 5px 0;
+  -webkit-border-radius: 0 0 5px 0;
+  -moz-border-radius: 0 0 5px 0;
+  -ms-border-radius: 0 0 5px 0;
+  -o-border-radius: 0 0 5px 0;
 }

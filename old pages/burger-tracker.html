@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Fisher - Wine Key</title>
+    <title>James Fisher - Burger Tracker!</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,7 +18,7 @@
     />
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../queries.css" />
-   
+    
   </head>
 
   <body>
@@ -29,19 +29,19 @@
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
-  <nav class="nav">
+     <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
             <a href="../index.html" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="../index.html#skills" class="nav__link">Skills</a>
+            <a href="../index.html#services" class="nav__link">Skills</a>
           </li>
           <li class="nav__item">
-            <a href="../index.html#bio" class="nav__link">Bio</a>
+            <a href="../index.html#about" class="nav__link">Bio</a>
           </li>
           <li class="nav__item">
-            <a href="../index.html#portfolio" class="nav__link">Portfolio</a>
+            <a href="../index.html#work" class="nav__link">Portfolio</a>
           </li>
           <li class="nav__item">
             <a href="../index.html#contact" class="nav__link">Contact</a>
@@ -52,40 +52,31 @@
 
     <section class="portfolio-section-intro">
       <h1 class="section__title portfolio-intro">
-        <strong>Wine Key</strong>
+        Burger <strong>Tracker!</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro portfolio-subtitle">
-        an interactive wine inventory tool for a small restaurant chain
+        a burger logger made with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)
       </p>
-      <!-- <img
-        src="media/Covidosity.png"
-        alt="meeting your AV needs screenshot"
-        title="Meeting Your (AV) Needs"
-        class="intro__img"
-      /> -->
     </section>
 
     <section class="portfolio-section-main">
       <div class="portfolio-item-individual">
-        <p>
-          Need to know which of your restaurants has the bottle of wine you are
-          looking for? Wine Key has the answer...
-        </p>
+        <p>Burger Tracker! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.</p>
         <img
           class="portfolio-item-individual-image-main"
-          src="../media/Wine-Key-animation.gif"
-          alt="meeting your AV needs screenshot"
+          src="../media/burger-tracker.png"
+          alt="burger-tracker-screenshot"
         />
 
         <div class="portfolio-item-buttons">
           <a
-            href="https://fv-winekey.herokuapp.com/auth/login"
+            href="https://stark-badlands-92104.herokuapp.com/"
             class="btn site-button"
             target="_blank"
             >View Site</a
           >
           <a
-            href="https://github.com/arielbs1991/Wine-Key"
+            href="https://github.com/jfisher396/burger"
             class="btn repo-button"
             target="_blank"
             >View Repo</a
@@ -93,20 +84,10 @@
         </div>
 
         <p>
-          Wine Key is an interactive wine inventory tool for a small restaurant
-          chain. Easily add, modify or delete items in a location's wine
-          inventory, as well as search for bottles that may exist elsewhere
-          within the company. This was a coding-bootcamp group project and my contributions included CSS styling and animation.
+          A bootcamp assignment to create a burger logger using MySQL, Node, Express, Handlebars and a homemade ORM. Built following the MVC design pattern; using Node and MySQL to store, query and route data, and Handlebars to generate the HTML. jQuery, Google Fonts and Ionicons were also used in app production.  
         </p>
-        <p>
-          To login to page, simply enter a fake name and email address to "sign
-          up".
-        </p>
-        <!-- <img
-          class="portfolio-item-individual-image-2"
-          src="media\meetingneeds animated.gif"
-          alt="meeting your AV needs screenshot"
-        /> -->
+
+        
       </div>
     </section>
 
