@@ -12,10 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:ital,wght@0,300;0,900;1,400&display=swap"
@@ -28,17 +28,18 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/e64903163a.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <div class="icon-bar">
-      <a href="mailto:james@james-fisher-web-developer.com" class="email"><i class="fa fa-envelope"></i></a>
+      <a href="mailto:james@james-fisher-web-developer.com" class="email"><ion-icon name="mail"></ion-icon></a>
       <a href="https://twitter.com/Jaymz396"
-            target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+            target="_blank" class="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
       <a href="https://github.com/jfisher396"
-            target="_blank" class="github"><i class="fab fa-github-square"></i></a>
+            target="_blank" class="github"><ion-icon name="logo-github"></ion-icon></a>
       <a href="https://www.linkedin.com/in/jamesfisher-webdev/"
-            target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            target="_blank" class="linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
     </div>
     <header>
       <button class="nav-toggle" aria-label="toggle navigation">
@@ -173,9 +174,13 @@
         <p class="about-me__body--paragraph">
           James is very excited about the opportunities that await him as a Web Developer.  He is looking for a position where he will be able to build amazing things and work with great people!
         </p>
-        <a href="#contact" class="btn work-btn">Contact James</a>
+        
       </div>
-
+      
+         <a href="#contact" class="btn contact-btn">Contact James</a>
+      
+       
+      
       <img
         src="media/james-fisher-camera.jpg"
         alt="James with his camera"
@@ -372,7 +377,8 @@
       </ul>
       <p>Copyright &copy;2021 James Fisher</p>
     </footer>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

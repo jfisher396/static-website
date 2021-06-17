@@ -32,9 +32,6 @@
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
-
-  
-  
 }
 
 @media (min-width: 600px) {
@@ -140,18 +137,34 @@
     margin-bottom: 30px;
   }
 
+  .contact-btn {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
   .about-me {
     max-width: 100%;
-    /* padding-bottom: 20px; */
   }
 
   .section__title--about {
-    padding-left: 10px;
+    padding-left: 35px;
+  }
+
+  .section__subtitle--about {
+    padding-left: 35px;
   }
   .about-me__body p {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 35px;
+    padding-right: 20px;
   }
+
+  .certificate--img {
+    /* max-width: 30%; */
+    /* float: left; */
+    margin-left: 35px;
+    margin-right: 10px;
+  }
+
   .services {
     margin-bottom: 20px;
   }
@@ -170,7 +183,6 @@
   }
 
   .portfolio__img {
-    
     margin-top: 15px;
     margin-left: 0;
     padding: 0;
@@ -223,6 +235,15 @@
   }
   .social-list {
     margin-top: 25px;
+  }
+
+  .icon-bar {
+    top: 80%;
+  }
+
+  .icon-bar a {
+    padding: 5px;
+    font-size: 0.8rem;
   }
 }
 
